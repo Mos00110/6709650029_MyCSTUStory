@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: rgb(250, 226, 255);
     font-family:"Nunito";
     margin: 0%;
 }
 
-header{
+h1{
     font-size: 28px;
     display: flex;
     justify-content: end;
     align-items: center;
     background-color: rgb(255, 255, 255);
     border: 2px solid;
+    font-weight: normal;
 }
 #TUid{
     display: block;
@@ -28,7 +32,7 @@ header{
     background-color: rgb(250, 226, 255);
     padding: 30px;
 }
-h1.intropage{
+header.intropage{
     display: inline;
     font-family: "Yusei Magic";
     font-size: 48px;
@@ -52,23 +56,11 @@ th.intro{
     text-align: center;
     padding: 0%;
 }
-.name{
-    color: rgb(255, 29, 142);
-    text-shadow: -1px 1px 2px black;
-    font-size: 30px;
+video{
+    width: 100%;
 }
-.age{
-    color: rgb(255, 29, 86);
-    text-shadow: -1px 1px 2px black;
-    font-size: 30px;
-}
-.date{
-    color: rgb(255, 76, 76);
-    text-shadow: -1px 1px 2px black;
-    font-size: 30px;
-}
-.blood{
-    color: rgb(196, 0, 0);
+.name, .age, .date, .blood{
+    color: rgb(255, 29, 116);
     text-shadow: -1px 1px 2px black;
     font-size: 30px;
 }
@@ -79,9 +71,6 @@ table{
 }
 hr{
     border-style: double;
-    margin-bottom: 10px ;
-}
-hr.line1{
     margin-top: 0;
     margin-bottom: 20px ;
 }
@@ -124,6 +113,7 @@ table.HobFav{
     font-size: 24px;
     font-weight: bold;
     padding: 0%;
+    margin: 30px 0px;
 }
 td{
     padding: 0%;
@@ -154,6 +144,19 @@ p.story:first-letter {
 .pic:hover{
     border: 1px solid black;
 }
-footer{
+fieldset{
+    margin: 0px 30px;
+}
+h4.picofstory{
+    margin: 20px;
     text-align: center;
+}
+footer {
+    background-color: #df8fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+footer p {
+    margin: 0;
 }
