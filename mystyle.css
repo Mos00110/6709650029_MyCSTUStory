@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
+body {
+    background-color: rgb(250, 226, 255);
+    font-family:"Nunito";
+    margin: 0%;
+}
+
+header{
+    font-size: 28px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+#TUid{
+    display: block;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 48px;
+    margin: 10px;
+}
+
+.head{
+    text-align: center;
+    background-color: rgb(250, 226, 255);
+    padding: 30px;
+}
+h1.intropage{
+    display: inline;
+    font-family: "Yusei Magic";
+    font-size: 48px;
+    color:rgb(255, 118, 118);
+    text-shadow: 2px 2px 3px black;
+}
+h1.story{
+    display: inline;
+    font-family: "Yusei Magic";
+    font-size: 48px;
+    color:rgb(255, 123, 35);
+    text-shadow: 2px 2px 3px black;
+}
+th.info{
+    text-align: left;
+    vertical-align: top;
+    font-size: 24px;
+    padding-left: 20px;
+}
+th.intro{
+    text-align: center;
+    padding: 0%;
+}
+.name{
+    color: rgb(255, 29, 142);
+    text-shadow: -1px 1px 2px black;
+    font-size: 30px;
+}
+.age{
+    color: rgb(255, 29, 86);
+    text-shadow: -1px 1px 2px black;
+    font-size: 30px;
+}
+.date{
+    color: rgb(255, 76, 76);
+    text-shadow: -1px 1px 2px black;
+    font-size: 30px;
+}
+.blood{
+    color: rgb(196, 0, 0);
+    text-shadow: -1px 1px 2px black;
+    font-size: 30px;
+}
+table{
+    background-image: url('resources/cute.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr{
+    border-style: double;
+    margin-bottom: 10px ;
+}
+hr.line1{
+    margin-top: 0;
+    margin-bottom: 20px ;
+}
+.contact{
+    color: rgb(255, 131, 94);
+    text-shadow: -1px 1px 2px black;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+    font-size: 26px;
+}
+.profile{
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -1px 2px 3px black;
+    float: left;
+    margin-right: 20px;
+}
+
+ul{
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 20px;
+}
+i{
+    font-weight: 500;
+}
+.study{
+    vertical-align: middle;
+    margin-left: 20px ;
+}
+table.HobFav{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0%;
+}
+td{
+    padding: 0%;
+    margin: 0%;
+}
+th.HobFav{
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgb(255, 59, 196);
+}
+
+p{
+    margin-left: 20px ;
+    font-size: 20px;
+    padding: 0%;
+}
+p.story:first-letter {
+    font-size: 200%;
+}
+.pic{
+    display: inline-block;
+    border: 1px solid pink;
+    margin: 5px;
+}
+.pic .description{
+    text-align: center;
+    padding: 5px;
+}
+.pic:hover{
+    border: 1px solid black;
+}
+footer{
+    text-align: center;
+}
