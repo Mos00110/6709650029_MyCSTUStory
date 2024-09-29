@@ -11,6 +11,7 @@ body {
     margin: 0%;
 }
 h1{
+    margin-top: 20px;
     font-size: 28px;
     display: flex;
     justify-content: end;
@@ -74,6 +75,10 @@ nav ul li a {
     border-bottom: 2px solid transparent;
 }
 nav ul li a:hover {
+    color: #d753ff;
+    border-bottom: 2px #d753ff solid;
+}
+nav ul li a.active {
     color: #d753ff;
     border-bottom: 2px #d753ff solid;
 }
