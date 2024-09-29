@@ -20,6 +20,14 @@ h1{
     border: 2px solid;
     font-weight: normal;
 }
+h2{
+    margin: 20px;
+}
+h3{
+    margin: 20px 50px;
+    display: inline-block;
+    text-align: center;
+}
 #TUid{
     display: block;
     font-family: "Libre Barcode 39 Text";
@@ -46,6 +54,7 @@ h1.story{
     text-shadow: 2px 2px 3px black;
 }
 nav {
+    margin-bottom: 20px;
     display: inline;
     background-color: black;
     padding: 15px;
@@ -161,7 +170,7 @@ th.HobFav{
 }
 
 p{
-    margin-left: 20px ;
+    margin-left: 30px ;
     font-size: 20px;
     padding: 0%;
 }
@@ -179,6 +188,13 @@ p.story:first-letter {
 }
 .pic:hover{
     border: 1px solid black;
+}
+.Locked{
+    margin: 10px 50px;
+    display: inline-block;
+}
+.locked{
+    text-align: center;
 }
 fieldset{
     margin: 0px 30px;
